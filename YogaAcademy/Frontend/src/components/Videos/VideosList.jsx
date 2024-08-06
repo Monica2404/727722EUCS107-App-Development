@@ -4,7 +4,7 @@ import axios from 'axios';
 import VideosContainer from './VideosContainer';
 
 function VideosList() {
-  const YOUTUBE_API_KEY = 'AIzaSyCC9jCGbsKOFUALGPbkjOtL0uGMb0haI8s';
+  const YOUTUBE_API_KEY = 'your api';
   const YOUTUBER_USERNAME = 'yogawithadriene';
   
   const [videos, setVideos] = useState([]);
