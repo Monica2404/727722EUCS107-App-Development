@@ -1,0 +1,141 @@
+/* Container Styling */
+.buycontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buyheading {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Container Style */
+.buyform-container {
+    width: 100%;
+}
+
+/* Form Heading Style */
+.buysubheading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Form Styling */
+.buyform {
+    display: flex;
+    flex-direction: column;
+}
+
+.buyform-section {
+    margin-bottom: 30px;
+}
+
+.buyform-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.buyform-group label {
+    width: 150px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.buyform-group input,
+.buyform-group select
+{
+    flex:1;
+    max-width: 300px;
+}
+
+.buyform-container input[type="text"],
+.buyform-container input[type="number"],
+.buyform-container input[type="email"],
+.buyform-container input[type="tel"],
+.buyform-container input[type="password"],
+.buyform-container textarea,
+.buyform-container select {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buybutton {
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.buybutton:hover {
+    background-color: #008e76;
+}
+/* Add this to your existing CSS */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    border: 2px solid #00bfa5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .popup p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+/* Responsive Design */
+@media (max-width: 800px) {
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
