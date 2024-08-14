@@ -1,0 +1,71 @@
+
+
+.payment-management h2 {
+  margin-bottom: 20px;
+}
+
+.payment-management .card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-management .card h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.payment-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.payment-management th, .payment-management td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.payment-management th {
+  background-color: #f2f2f2;
+}
+
+.payment-management input, .payment-management button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.payment-management ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.payment-management li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-management li span {
+  flex-grow: 1;
+}
+
+.payment-management li button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-management li button:hover {
+  background-color: #0056b3;
+}
